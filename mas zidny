@@ -1,0 +1,12 @@
+import random
+bil = random.randrange(1,20)
+
+while True :        
+    tebakan = int(input('masukkan bilangan : '))
+    if tebakan > bil :
+        print('bilangan lebih besar')
+    elif tebakan < bil :
+        print('bilangan lebih kecil')
+    elif tebakan == bil :
+        break
+print('Selamat Anda Benar!')
